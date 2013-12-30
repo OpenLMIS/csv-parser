@@ -12,9 +12,7 @@ package org.openlmis.upload.model;
 
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.experimental.categories.Category;
 import org.junit.rules.ExpectedException;
-import org.openlmis.db.categories.UnitTests;
 import org.openlmis.upload.exception.UploadException;
 
 import java.util.ArrayList;
@@ -24,7 +22,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.openlmis.upload.matchers.ExceptionMatcher.uploadExceptionMatcher;
 
-@Category(UnitTests.class)
 public class ModelClassTest {
 
   @Rule
